@@ -145,7 +145,17 @@ footer {
   nav > a {
     margin: 12px 0;
   }
+  nav > a.logo {
+    margin-right: 0;
+    text-align: center;
+    width: 100%; /
+  }
 
+  /* Center the nav links */
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
   /* Hero text size */
   section.hero > .call-to-action {
     font-size: 1.5rem;
